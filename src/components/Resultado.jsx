@@ -13,7 +13,7 @@ const Contenedor = styled.div`
 const Imagen = styled.img`
   display: block;
   width: 120px;
-`
+`;
 
 const Texto = styled.p`
   font-size: 18px;
@@ -37,19 +37,19 @@ export const Resultado = ({ resultado }) => {
       <Imagen src={`https://cryptocompare.com/${IMAGEURL}`} alt="cripto" />
       <div>
         <Precio>
-          El precion es de: <span>{PRICE}</span>
+          The price is: <span>{PRICE}</span>
         </Precio>
         <Texto>
-          Precio mas alto del dia: <span>{HIGHDAY}</span>
+          Highest price of the day: <span>{HIGHDAY}</span>
         </Texto>
         <Texto>
-          Precion mas bajo del dia: <span>{LOWDAY}</span>
+          Lowest price of the day: <span>{LOWDAY}</span>
         </Texto>
         <Texto>
-          Variacion ultimas 24 horas: <span>{CHANGEPCT24HOUR}</span>
+          Variation last 24 hours: <span>{CHANGEPCT24HOUR}</span>
         </Texto>
         <Texto>
-          Ultima actualizacion: <span>{LASTUPDATE}</span>
+          Last update: <span>{LASTUPDATE}</span>
         </Texto>
       </div>
     </Contenedor>

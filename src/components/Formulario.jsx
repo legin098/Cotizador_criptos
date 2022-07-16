@@ -73,7 +73,7 @@ export const Formulario = ({ setMonedas }) => {
 
   return (
     <>
-      {error && <Error>Todos los campos son obligatorios</Error>}
+      {error && <Error>All fields are required</Error>}
       <form onSubmit={handleSubmit}>
         <SelectMonedas />
         <SelectCriptoMoneda />
